@@ -1,0 +1,32 @@
+# Environment variables (CRITICAL!)
+.env
+.env.*
+!.env.example
+
+# Firebase credentials (CRITICAL!)
+firebase-credentials.json
+*-firebase-adminsdk-*.json
+serviceAccountKey.json
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+test_*.pdf
+*.pdf
+
+# Logs
+*.log
