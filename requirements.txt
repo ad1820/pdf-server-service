@@ -1,6 +1,9 @@
 ﻿cloudinary==1.44.1
 fastapi==0.119.1
 firebase-admin==7.1.0
+grpcio-status==1.76.0
+h2==4.3.0
+pip-chill==1.0.3
 pymongo==4.15.3
 pyrebase4==4.8.0
 python-dotenv==1.1.1
