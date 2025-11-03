@@ -1,11 +1,13 @@
 import firebase_admin
 from firebase_admin import credentials, auth
+from dotenv import load_dotenv
 import pyrebase
 import os
 import json
 
+load_dotenv()
+
 if not firebase_admin._apps:
-    # Load credentials from environment variable instead of file
     cred_dict = json.loads(os.getenv("FIREBASE_CREDENTIALS"))
     cred = credentials.Certificate(cred_dict)
     firebase_admin.initialize_app(cred)
